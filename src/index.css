@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  background-image: url("https://i.blogs.es/669147/ram-s6-key--rt-1920x1080/1366_2000.jpeg");
+  align-items: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-color: black;
+  background-attachment: fixed;
+}
+h1{
+  background-color: aliceblue;
+}
+img{
+  height: 200px;
+  width: 300px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

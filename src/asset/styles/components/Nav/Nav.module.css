@@ -1,0 +1,28 @@
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.contentItem{
+    width: 50%;
+    height: 100%;
+    /* line-height: 30px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Sono', sans-serif;
+    font-weight: 100;
+    
+}
+.searchContent{
+    line-height: 70px;
+}

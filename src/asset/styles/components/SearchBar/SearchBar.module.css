@@ -1,0 +1,22 @@
+.boton{
+    background-color: red;
+    color: aliceblue;
+    border-color: 0;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 300px;
+    margin-left: 1200px;
+    font-size: 30px;
+
+}
+.boton:hover{
+    background-color:rgb(174, 47, 47);
+    border-color: 0px;
+}
+.input{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 1200px;
+}
