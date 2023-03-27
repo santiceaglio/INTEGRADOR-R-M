@@ -4,25 +4,31 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+   
     
 }
 .contentItem{
-    width: 50%;
+    width: 45%;
     height: 100%;
-    /* line-height: 30px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.item{
+.item, a{
     text-align: center;
     text-decoration: none;
     color: white;
     font-size: 25px;
-    font-family: 'Sono', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 100;
+    margin-top: 8px;
     
 }
+/* #item:hover{
+    background-color: #40B5CB;
+} */
 .searchContent{
+    width: 50%;
+    height: 100%;
     line-height: 70px;
 }

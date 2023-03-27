@@ -13,6 +13,7 @@ export default function Cards({characters, onClose}) {
             return(
                
             <Card className = {styles.tarjeta}
+            key={id}
             id={id}
             name = {name}
             species = {species}

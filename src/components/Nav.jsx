@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import SearchBar from "./SearchBar.jsx";
 import styles from "../asset/styles/components/Nav/Nav.module.css"
 
+
 class Nav extends React.Component {
     constructor(props){
         super(props)
@@ -18,6 +19,9 @@ class Nav extends React.Component {
                     </Link>
                     <Link to="/home">
                         <h3 className={styles.item}>Home</h3>
+                    </Link>
+                    <Link to ="/favorites">
+                        <h3 className={styles.item}>Favorites</h3>
                     </Link>
                     </div>
                     <div className={styles.searchContent}>

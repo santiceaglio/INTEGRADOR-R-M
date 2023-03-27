@@ -5,7 +5,7 @@
     box-shadow: 5px 5px 5px black;
     overflow: hidden;
     font-size: 11px;
-    background: linear-gradient(rgba(55,37,206,1),rgba(204,71,183,1) );
+    background: #C8EA58;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
@@ -14,8 +14,8 @@
     color: azure;
     background-color: red;
     border-radius: 7px;
-    margin-top: 10px;
-    margin-left: 150px;
+    margin-top: 3px;
+    margin-left: 275px;
     border: 0px;
 
     
@@ -28,6 +28,12 @@
     margin-bottom: 15px;
     display:flex;
     overflow: hidden;
+    margin-top: 40px;    
     
-    
+}
+.info{
+    font-family:'Oswald', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    margin-left: 50px;
 }
