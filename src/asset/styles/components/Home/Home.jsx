@@ -8,7 +8,6 @@ const Home = ({characters, setCharacters}) => {
     return (
 
     <div>
-        <h1>Esto es el Home</h1>
       <Cards characters={characters} onClose={onClose}/>
   
     </div>
