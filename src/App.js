@@ -9,6 +9,7 @@ import Favorites from './components/Favorites.jsx'
 import Home from './asset/styles/components/Home/Home.jsx'
 import  Form  from './asset/styles/components/Form/Form.jsx'
 // import  Form from './asset/styles/components/Form/Form.jsx'
+import Detail from './components/Detail.jsx'
 
 
 
@@ -118,6 +119,11 @@ function App() {
           path="/favorites"
           element={<Favorites />}
         />
+
+      <Route
+      path="/detail/:detailId"
+      element={<Detail />}
+      />
 
       </Routes>
       {/* <Route path="/detail/detailId" element={<Detail />} /> */}
